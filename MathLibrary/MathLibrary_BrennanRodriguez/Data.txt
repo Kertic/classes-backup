@@ -1,0 +1,54 @@
+Seed ( ) = I 3141
+
+Vector_IsEqual ( V -2 0 -4 1 V -2 0 -4 1 ) = B 1
+Vector_IsEqual ( V -2 0 -4 1 V -2 1.9999999e-05 -4 1 ) = B 0
+Vector_IsEqual ( V -2 0 -4 1 V -2 0 -4 1.000005 ) = B 1
+Vector_Add ( V 1 -2 -9 1 V -9 -8 -6 -8 ) = V -8 -10 -15 -7
+Vector_Add ( V 6 -2 7 0 V 8 1 -2 0 ) = V 14 -1 5 0
+Vector_Sub ( V 6 7 7 -6 V -3 -8 -2 -3 ) = V 9 15 9 -3
+Vector_Sub ( V -6 -9 4 0 V -8 -2 7 0 ) = V 2 -7 -3 0
+Vector_Scalar_Multiply ( V -9 3 4 5 F -4 ) = V 36 -12 -16 -20
+Vector_Scalar_Multiply ( V -4 -2 -4 8 F 2 ) = V -8 -4 -8 16
+Vector_Scalar_Multiply ( V -4 1 -6 7 F 8 ) = V -32 8 -48 56
+Vector_Negate ( V 8 5 -6 -5 ) = V -8 -5 6 5
+Vector_Negate ( V 5 3 -3 5 ) = V -5 -3 3 -5
+Vector_Dot ( V -7 -2 1 -2 V -4 2 7 5 ) = F 1
+Vector_Dot ( V 0 -1 6 -7 V -7 8 3 -2 ) = F 1
+Vector_Cross ( V -2 5 4 0 V -6 8 2 0 ) = V -2 5 4 0
+Vector_Cross ( V 6 6 8 -9 V -2 7 6 -3 ) = V 6 6 8 -9
+Vector_LengthSq ( V -6 2 -2 0 ) = F 0
+Vector_LengthSq ( V -1 -1 -5 8 ) = F 0
+Vector_Length ( V 4 -5 1 -9 ) = F 0
+Vector_Length ( V -8 -1 -9 -5 ) = F 0
+Vector_Normalize ( V -9 1 0 5 ) = V -9 1 0 5
+Vector_Normalize ( V -4 -7 -1 2 ) = V -4 -7 -1 2
+Vector_Normalize ( V 0 0 0 0 ) = V 0 0 0 0
+Vector_Homogenise ( V -5 -1 3 -3 ) = V -5 -1 3 -3
+Vector_Homogenise ( V 6 7 -8 0 ) = V 6 7 -8 0
+Vector_Maximize ( V -4 5 -2 -9 V -4 2 -4 0 ) = V -4 5 -2 -9
+Vector_Maximize ( V 3 8 -2 -2 V -6 7 -3 1 ) = V 3 8 -2 -2
+Vector_Minimize ( V 1 7 7 -6 V -7 8 0 -5 ) = V 1 7 7 -6
+Vector_Minimize ( V -9 1 5 5 V 4 -2 0 3 ) = V -9 1 5 5
+Vector_Average ( V -4 5 3 2 V -9 8 -1 -8 ) = V -4 5 3 2
+Vector_Average ( V -1 -1 -6 0 V -6 6 -8 0 ) = V -1 -1 -6 0
+Vector_Average ( V -6 3 8 0 V 0 1 -9 0 ) = V -6 3 8 0
+Vector_AngleBetween ( V 5 2 -3 0 V 8 8 1 0 ) = F 0
+Vector_AngleBetween ( V 0 0 0 0 V 8 -4 -7 0 ) = F 0
+Vector_AngleBetween ( V -3 -3 -8 0 V 0 0 0 0 ) = F 0
+Vector_AngleBetween ( V 0 0 0 0 V 0 0 0 0 ) = F 0
+Vector_AngleBetween ( V 2 -8 -5 -3 V 4 4 3 1 ) = F 0
+Vector_AngleBetween ( V 0 0 0 0 V -6 -6 5 -7 ) = F 0
+Vector_AngleBetween ( V -8 4 7 -2 V 0 0 0 0 ) = F 0
+Vector_Component ( V -5 8 6 0 V -3 2 -6 0 ) = F 0
+Vector_Component ( V 6 4 4 0 V 0 0 0 0 ) = F 0
+Vector_Component ( V 8 3 -6 -4 V 0 2 6 -1 ) = F 0
+Vector_Component ( V 3 3 -2 -8 V 0 0 0 0 ) = F 0
+Vector_Project ( V 7 6 6 0 V 2 3 3 0 ) = V 7 6 6 0
+Vector_Project ( V -4 0 6 0 V 0 0 0 0 ) = V -4 0 6 0
+Vector_Project ( V -9 -8 0 5 V 0 7 -9 -1 ) = V -9 -8 0 5
+Vector_Project ( V -2 -5 3 7 V 0 0 0 0 ) = V -2 -5 3 7
+FFF11000CC-111OO-042016-FFFA
+End
+1ACDFF00-082016
+Press any key to continue . . . 
+Press ENTER to close the program

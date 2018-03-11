@@ -1,0 +1,260 @@
+unsigned Seed() validated.
+bool Vector_IsEqual(TVECTOR, TVECTOR) validated.
+bool Vector_IsEqual(TVECTOR, TVECTOR) validated.
+bool Vector_IsEqual(TVECTOR, TVECTOR) validated.
+TVECTOR Vector_Add(TVECTOR, TVECTOR) validated.
+TVECTOR Vector_Add(TVECTOR, TVECTOR) validated.
+TVECTOR Vector_Sub(TVECTOR, TVECTOR) validated.
+TVECTOR Vector_Sub(TVECTOR, TVECTOR) validated.
+TVECTOR Vector_Scalar_Multiply(TVECTOR, float) validated.
+TVECTOR Vector_Scalar_Multiply(TVECTOR, float) validated.
+TVECTOR Vector_Scalar_Multiply(TVECTOR, float) validated.
+TVECTOR Vector_Negate(TVECTOR) validated.
+TVECTOR Vector_Negate(TVECTOR) validated.
+float Vector_Dot(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		< -7, -2,  1, -2 >
+		< -4,  2,  7,  5 >
+	Your output:
+		1
+	Correct output:
+		21
+
+float Vector_Dot(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		<  0, -1,  6, -7 >
+		< -7,  8,  3, -2 >
+	Your output:
+		1
+	Correct output:
+		24
+
+TVECTOR Vector_Cross(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		< -2,  5,  4,  0 >
+		< -6,  8,  2,  0 >
+	Your output:
+		< -2,  5,  4,  0 >
+	Correct output:
+		< -22, -20,  14,  0 >
+
+TVECTOR Vector_Cross(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		<  6,  6,  8, -9 >
+		< -2,  7,  6, -3 >
+	Your output:
+		<  6,  6,  8, -9 >
+	Correct output:
+		< -20, -52,  54,  0 >
+
+float Vector_LengthSq(TVECTOR) did not validate.
+	Inputs:
+		< -6,  2, -2,  0 >
+	Your output:
+		0
+	Correct output:
+		44
+
+float Vector_LengthSq(TVECTOR) did not validate.
+	Inputs:
+		< -1, -1, -5,  8 >
+	Your output:
+		0
+	Correct output:
+		91
+
+float Vector_Length(TVECTOR) did not validate.
+	Inputs:
+		<  4, -5,  1, -9 >
+	Your output:
+		0
+	Correct output:
+		11.090536
+
+float Vector_Length(TVECTOR) did not validate.
+	Inputs:
+		< -8, -1, -9, -5 >
+	Your output:
+		0
+	Correct output:
+		13.076696
+
+TVECTOR Vector_Normalize(TVECTOR) did not validate.
+	Inputs:
+		< -9,  1,  0,  5 >
+	Your output:
+		< -9,  1,  0,  5 >
+	Correct output:
+		< -0.87006289,  0.096673653,  0,  0.48336828 >
+
+TVECTOR Vector_Normalize(TVECTOR) did not validate.
+	Inputs:
+		< -4, -7, -1,  2 >
+	Your output:
+		< -4, -7, -1,  2 >
+	Correct output:
+		< -0.47809145, -0.83666003, -0.11952286,  0.23904572 >
+
+TVECTOR Vector_Normalize(TVECTOR) validated.
+TVECTOR Vector_Homogenise(TVECTOR) did not validate.
+	Inputs:
+		< -5, -1,  3, -3 >
+	Your output:
+		< -5, -1,  3, -3 >
+	Correct output:
+		<  1.6666667,  0.33333334, -1,  1 >
+
+TVECTOR Vector_Homogenise(TVECTOR) did not validate.
+	Inputs:
+		<  6,  7, -8,  0 >
+	Your output:
+		<  6,  7, -8,  0 >
+	Correct output:
+		<  0,  0,  0,  0 >
+
+TVECTOR Vector_Maximize(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		< -4,  5, -2, -9 >
+		< -4,  2, -4,  0 >
+	Your output:
+		< -4,  5, -2, -9 >
+	Correct output:
+		< -4,  5, -2,  0 >
+
+TVECTOR Vector_Maximize(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		<  3,  8, -2, -2 >
+		< -6,  7, -3,  1 >
+	Your output:
+		<  3,  8, -2, -2 >
+	Correct output:
+		<  3,  8, -2,  1 >
+
+TVECTOR Vector_Minimize(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		<  1,  7,  7, -6 >
+		< -7,  8,  0, -5 >
+	Your output:
+		<  1,  7,  7, -6 >
+	Correct output:
+		< -7,  7,  0, -6 >
+
+TVECTOR Vector_Minimize(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		< -9,  1,  5,  5 >
+		<  4, -2,  0,  3 >
+	Your output:
+		< -9,  1,  5,  5 >
+	Correct output:
+		< -9, -2,  0,  3 >
+
+TVECTOR Vector_Average(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		< -4,  5,  3,  2 >
+		< -9,  8, -1, -8 >
+	Your output:
+		< -4,  5,  3,  2 >
+	Correct output:
+		< -6.5,  6.5,  1, -3 >
+
+TVECTOR Vector_Average(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		< -1, -1, -6,  0 >
+		< -6,  6, -8,  0 >
+	Your output:
+		< -1, -1, -6,  0 >
+	Correct output:
+		< -3.5,  2.5, -7,  0 >
+
+TVECTOR Vector_Average(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		< -6,  3,  8,  0 >
+		<  0,  1, -9,  0 >
+	Your output:
+		< -6,  3,  8,  0 >
+	Correct output:
+		< -3,  2, -0.5,  0 >
+
+float Vector_AngleBetween(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		<  5,  2, -3,  0 >
+		<  8,  8,  1,  0 >
+	Your output:
+		0
+	Correct output:
+		40.800613
+
+float Vector_AngleBetween(TVECTOR, TVECTOR) validated.
+float Vector_AngleBetween(TVECTOR, TVECTOR) validated.
+float Vector_AngleBetween(TVECTOR, TVECTOR) validated.
+float Vector_AngleBetween(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		<  2, -8, -5, -3 >
+		<  4,  4,  3,  1 >
+	Your output:
+		0
+	Correct output:
+		129.91798
+
+float Vector_AngleBetween(TVECTOR, TVECTOR) validated.
+float Vector_AngleBetween(TVECTOR, TVECTOR) validated.
+float Vector_Component(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		< -5,  8,  6,  0 >
+		< -3,  2, -6,  0 >
+	Your output:
+		0
+	Correct output:
+		-0.71428573
+
+float Vector_Component(TVECTOR, TVECTOR) validated.
+float Vector_Component(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		<  8,  3, -6, -4 >
+		<  0,  2,  6, -1 >
+	Your output:
+		0
+	Correct output:
+		-4.0605178
+
+float Vector_Component(TVECTOR, TVECTOR) validated.
+TVECTOR Vector_Project(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		<  7,  6,  6,  0 >
+		<  2,  3,  3,  0 >
+	Your output:
+		<  7,  6,  6,  0 >
+	Correct output:
+		<  4.5454545,  6.818182,  6.818182,  0 >
+
+TVECTOR Vector_Project(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		< -4,  0,  6,  0 >
+		<  0,  0,  0,  0 >
+	Your output:
+		< -4,  0,  6,  0 >
+	Correct output:
+		<  0,  0,  0,  0 >
+
+TVECTOR Vector_Project(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		< -9, -8,  0,  5 >
+		<  0,  7, -9, -1 >
+	Your output:
+		< -9, -8,  0,  5 >
+	Correct output:
+		<  0, -3.259542,  4.1908398,  0.46564886 >
+
+TVECTOR Vector_Project(TVECTOR, TVECTOR) did not validate.
+	Inputs:
+		< -2, -5,  3,  7 >
+		<  0,  0,  0,  0 >
+	Your output:
+		< -2, -5,  3,  7 >
+	Correct output:
+		<  0,  0,  0,  0 >
+
+Skipping unknown command.
+
+21 command(s) validated successfully.
+27 command(s) failed.

@@ -1,0 +1,1 @@
+This is the graphics lab 3 solution, but before it had shaders and instead just draws the triangle.
